@@ -45,8 +45,8 @@ setAnchorEl(null);
                             <Button href="/about">
                                 <MenuItem >About</MenuItem>
                             </Button>
-                            <Button>
-                                <MenuItem href="/competencies">Competencies</MenuItem>
+                            <Button href="/competencies">
+                                <MenuItem >Competencies</MenuItem>
                             </Button>
                     </Menu>
                 </Box>

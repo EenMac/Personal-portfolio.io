@@ -1,0 +1,21 @@
+#competencies-container{
+    height: 1600px;
+}
+#languages-section{
+    border-style: double;
+    transform: translateY(100px);
+    height: 490px;
+    margin-top: 10px;
+}
+#projects-section{
+    border-style: ridge;
+    transform: translateY(100px);
+    height: 490px;
+    margin-top: 10px;
+}
+#experiences-section{
+    border-style: dotted;
+    transform: translateY(100px);
+    height: 490px;
+    margin-top: 10px;
+}

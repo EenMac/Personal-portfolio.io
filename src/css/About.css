@@ -1,0 +1,21 @@
+#about-container{
+    height: 1500px;
+}
+#story-section{
+    transform: translateY(100px);
+    border-style: double;
+    height: 200px;
+    margin-top: 10px;
+}
+#experience-section{
+    transform: translateY(100px);
+    border-style: dashed;
+    margin-top: 10px;
+    height: 600px;
+}
+#interests-section{
+    transform: translateY(100px);
+    border-style: ridge;
+    margin-top: 10px;
+    height: 400px;
+}
