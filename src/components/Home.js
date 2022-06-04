@@ -3,11 +3,14 @@ import "../css/Home.css"
 import sunset from "../African-Sunset.jpeg";
 
 function Home() {
+
+    var image = document.getElementById("main-image")
+    console.log(image);
     return (
         <div id="home-container">
             <section id="header-section">
                 <h1>This will be the header component</h1>
-                <image src="../African-Sunset.jpeg"/>
+                <img id="main-image" src={sunset}></img>
             </section>
             <section id="content-section">
                 <h1>This will be the content section</h1>
