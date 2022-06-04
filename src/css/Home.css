@@ -1,0 +1,24 @@
+#home-container{
+    height: 2000px;
+}
+#header-section{
+    border-style: dashed;
+    padding: 50px;
+    position: relative;
+    transform: translateY(100px);
+    height: 800px;
+}
+#content-section{
+    transform: translateY(100px);
+    border-style: groove;
+    height: 800px;
+    position: relative;
+    margin-top: 10px;
+}
+#footer-section{
+    transform: translateY(100px);
+    margin-top: 10px;
+    border-style: dotted;
+    height: 400px;
+    margin-bottom: 10px;
+}

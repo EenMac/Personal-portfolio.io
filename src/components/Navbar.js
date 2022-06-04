@@ -2,6 +2,7 @@ import { React, useState} from 'react'
 import AppBar from '@mui/material/AppBar'
 import { Box, Icon, IconButton, MenuItem, Toolbar, Typography, Menu, Button} from '@mui/material'
 import { Container } from '@mui/system';
+import "../css/Navbar.css"
 
 function Navbar() {
 
@@ -16,7 +17,7 @@ setAnchorEl(null);
 
 
   return (
-    <AppBar>
+    <AppBar id="App-bar">
         <Container>
             <Toolbar>
                 <Box 
