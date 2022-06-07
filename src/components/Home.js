@@ -17,7 +17,9 @@ function Home() {
                 <h2 id='sub-heading'>Please feel free to have a wander about.</h2>
             </div>
             <div id="picture-container">
-                <img id="main-image" src={sunset}></img>
+                <img id="main-image" src={sunset}>
+                    
+                </img>
             </div>
         </div>
         </>

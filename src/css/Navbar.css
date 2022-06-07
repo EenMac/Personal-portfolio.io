@@ -5,4 +5,9 @@
 }
 #hamburger-menu{
     color: white;
+    border-radius: 1px;
+    box-sizing:border-box;
+    position: absolute;
+    background-color:rgba(255,255,255,.8);
+    transform: translateX(-100px);
 }

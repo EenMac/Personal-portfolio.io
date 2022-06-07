@@ -24,7 +24,7 @@ setAnchorEl(null);
                     <IconButton id="hamburger-menu"
                     onClick={handleMenu}
                     >
-                        haazit
+                        IMcDulling
                     </IconButton>
                     <Menu
                         anchorEl={anchorEl}
