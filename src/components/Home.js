@@ -8,18 +8,15 @@ function Home() {
     console.log(image);
     return (
         <div id="home-container">
-            <section id="header-section">
-                <h1>This will be the header component</h1>
+            <div id='text-element'>
+                <h1 id="main-heading">Hi there! Welcome to my personal website.</h1>
+                <h2 id='sub-heading'>Please feel free to have a wander about.</h2>
+            </div>
+            <div id="picture-container">
+                <h1>This is where my picture will go</h1>
                 <img id="main-image" src={sunset}></img>
-            </section>
-            <section id="content-section">
-                <h1>This will be the content section</h1>
-            </section>
-            <section id="footer-section">
-                <h1>This will be the footer section</h1>
-            </section>
+            </div>
         </div>
     )
 }
-
 export default Home
