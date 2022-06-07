@@ -20,9 +20,7 @@ setAnchorEl(null);
     <AppBar id="App-bar">
         <Container>
             <Toolbar>
-                <Box 
-                // sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
-                >
+                <Box>
                     <IconButton id="hamburger-menu"
                     onClick={handleMenu}
                     >

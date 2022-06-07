@@ -17,7 +17,6 @@ function About() {
               <h2>Sports</h2>
               <li>Rugby</li>
               <li>Cricket</li>
-              <li>Gymnastics</li>
             </ul>
           </div>
           <div>
