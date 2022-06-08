@@ -1,21 +1,16 @@
 #about-container{
-    height: 1500px;
+    height: 120vh;
+    background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 #story-section{
+    list-style-type: none;
     transform: translateY(100px);
-    border-style: double;
     height: 200px;
     margin-top: 10px;
 }
-#experience-section{
-    transform: translateY(100px);
-    border-style: dashed;
-    margin-top: 10px;
-    height: 600px;
-}
 #interests-section{
     transform: translateY(100px);
-    border-style: ridge;
     margin-top: 10px;
     height: 400px;
+    list-style-type: none;
 }

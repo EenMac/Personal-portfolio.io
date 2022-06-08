@@ -9,9 +9,9 @@ function Home() {
     return (
         <>
         <div id="home-container"> 
-        <div class="gradient-component"></div>
-        <div class="gradient-animation1"></div>
+        <div class="gradient-component1"></div>
         <div class="gradient-animation2"></div>
+        <div class="gradient-animation3"></div>
             <div id='text-element'>
                 <h1 id="main-heading">Hi there! Welcome to my personal website.</h1>
                 <h2 id='sub-heading'>Please feel free to have a wander about.</h2>

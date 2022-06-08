@@ -41,24 +41,24 @@
     flex: 1;
 }
 
-.gradient-component {
+.gradient-component1 {
     animation:slide 3s ease-in-out infinite alternate;
     background-image: linear-gradient(-60deg, rgb(232, 239, 228) 50%, #09f 50%);
     bottom:0;
     left:-50%;
-    opacity:.5;
+    opacity:.8;
     position:fixed;
     right:-50%;
     top:0;
     z-index:-1;
   }
   
-  .gradient-animation1 {
+.gradient-animation2 {
     animation-direction:alternate-reverse;
     animation-duration:4s;
   }
   
-  .gradient-animation2 {
+.gradient-animation3 {
     animation-duration:5s;
   }
 

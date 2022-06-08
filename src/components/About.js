@@ -4,23 +4,20 @@ import "../css/About.css"
 function About() {
   return (
     <div id="about-container">
-      <section id="story-section">
-        <div>
+        <div id="story-section">
           <h1>This is where the story will go</h1>
         </div>
-      </section>
-      <section id="interests-section">
-        <div>
+        <div id="interests-section">
           <h1>My Likes and interests</h1>
           <div>
-            <ul>
+            <ul id="sports">
               <h2>Sports</h2>
               <li>Rugby</li>
               <li>Cricket</li>
             </ul>
           </div>
           <div>
-            <ul>
+            <ul id="topics">
               <h2>Topics</h2>
               <li>Green tech</li>
               <li>Politics and governance structures</li>
@@ -28,7 +25,7 @@ function About() {
               <li>Habits and psychology</li>
             </ul>
           </div>
-          <div>
+          <div id="Activities">
             <ul>
               <h2>Activities</h2>
               <li>Touch rugby</li>
@@ -41,7 +38,6 @@ function About() {
             </ul>
           </div>
         </div>
-      </section>
     </div>
   )
 }
