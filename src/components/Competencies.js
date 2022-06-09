@@ -7,15 +7,15 @@ function Competencies( props ) {
       <div id='list-container'>
         <div id='languages'>
           <h1>Core languages</h1>
-            <ul>
+            <ol>
               <li>Javascript</li>
               <li>Python</li>
               <li>Ruby</li>
               <li>SQL</li>
               <li>Java</li>
-            </ul>
+            </ol>
           <h2>Applicable tools, frameworks and metholdologies</h2>
-            <ul>
+            <ol>
               <li>React</li>
               <li>Scrum/Agile</li>
               <li>Springboot</li>
@@ -23,18 +23,18 @@ function Competencies( props ) {
               <li>Selenium</li>
               <li>Linux</li>
               <li>Node.js</li>
-            </ul>
+            </ol>
         </div>
         <div id="seperator"></div>
         <div id="projects-section">
           <h1>Projects</h1>
-            <ul>
+            <ol>
               <li>Notflix</li>
               <li>Productivity Timer</li>
               <li>Personal website</li>
               <li>Radroutes</li>
               <li>Carbon Calculator</li>
-            </ul>
+            </ol>
         </div>
       </div>
         
@@ -44,11 +44,11 @@ function Competencies( props ) {
           <div>
             <h1>Bluebox Aviation</h1>
             <h2>My responsibilities</h2>
-              <ul>
+              <ol>
                 <li>Decouple the Automated test suite from browserstack, and integrate the use of safari-driver and chromedriver into the suite which resulted in a more meticulpous end to end process experience</li>
                 <li>Organise and lead the bi-monthly scrum events, i.e the  Sprint planning, review and retrospective, as well as facilitating any cross-team communication that may restrict reaching of sprint goal</li>
                 <li>Assisting Senior developer and team leads in reaching their sprint goal by assisting with any spare tasks that they are unable to complete in time, such as html and css changes, or adding minor features.</li>
-              </ul>
+              </ol>
         </div>
       </div>
 
