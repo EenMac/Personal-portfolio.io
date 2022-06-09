@@ -25,6 +25,7 @@ function Competencies( props ) {
               <li>Node.js</li>
             </ul>
         </div>
+        <div id="seperator"></div>
         <div id="projects-section">
           <h1>Projects</h1>
             <ul>
