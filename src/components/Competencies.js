@@ -38,8 +38,8 @@ function Competencies( props ) {
       </div>
         
         
-      <section id="experiences-section">
-        <h1>Personal experience</h1>
+      <div id="experiences-section">
+          <h1>Personal experience</h1>
           <div>
             <h1>Bluebox Aviation</h1>
             <h2>My responsibilities</h2>
@@ -48,8 +48,9 @@ function Competencies( props ) {
                 <li>Organise and lead the bi-monthly scrum events, i.e the  Sprint planning, review and retrospective, as well as facilitating any cross-team communication that may restrict reaching of sprint goal</li>
                 <li>Assisting Senior developer and team leads in reaching their sprint goal by assisting with any spare tasks that they are unable to complete in time, such as html and css changes, or adding minor features.</li>
               </ul>
-          </div>
-      </section>
+        </div>
+      </div>
+
       <div id="svg-container">
         <div id="android">
         <svg
