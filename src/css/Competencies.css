@@ -1,21 +1,66 @@
 #competencies-container{
-    height: 1600px;
+    /* height: 120vh; */
+    zoom: 90%;
 }
-#languages-section{
-    border-style: double;
+#list-container{
+    display: flex;
+}
+#languages{
+    width: fit-content;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    opacity: .5;
+    position: relative;
     transform: translateY(100px);
-    height: 490px;
-    margin-top: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 #projects-section{
-    border-style: ridge;
+    width: fit-content;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    opacity: .5;
+    position: relative;
     transform: translateY(100px);
-    height: 490px;
-    margin-top: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 #experiences-section{
+    display: flex;
     border-style: dotted;
     transform: translateY(100px);
-    height: 490px;
     margin-top: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#languages > ul > li {
+    border-style: dashed;
+    display: block;
+    width: fit-content;
+    text-align: center;
+}
+
+#svg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+#android{
+    position: relative;
+}
+#python{
+    position: relative;
+}
+#javascript{
+    position: relative;
 }

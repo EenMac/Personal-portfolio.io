@@ -18,7 +18,6 @@ function Home() {
             </div>
             <div id="picture-container">
                 <img id="main-image" src={sunset}>
-                    
                 </img>
             </div>
         </div>
