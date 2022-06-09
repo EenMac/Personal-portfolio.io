@@ -1,5 +1,5 @@
 #competencies-container{
-    height: 150vh;
+    height: 200%;
     zoom: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +43,6 @@
     list-style: outside;
     border-radius: none;
     font-style: bold;
-
 }
 
 #experiences-section{
@@ -71,7 +70,7 @@
 
 #experiences-section > div > ol > li{
     list-style-type:circle;;
-    padding-top: 5px;
+    padding: 5px;
    align-items: flex-start ;
 }
 
