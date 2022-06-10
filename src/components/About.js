@@ -23,8 +23,9 @@ function About() {
         <div id="interests-section">
           <h1>My Likes and interests</h1>
           <div id="interests-list">
-            <div > 
-              <h2>Sports</h2>
+            <h2>Sports</h2>
+            <div> 
+              
               <ul id="sports"> 
                 <li>
                   <img src={rugby}></img>
@@ -34,6 +35,7 @@ function About() {
                 </li>
               </ul>
             </div>
+            
             <div>
               <ul id="topics">
                 <h2>Topics</h2>
@@ -54,13 +56,11 @@ function About() {
             <div id="Activities">
               <ul>
                 <h2>Activities</h2>
-                <li>
                   <div id="divdiv">
                     <img id="touchies" src={touchrugby}></img>
                   </div>
-                  
-                </li>
                 <li>
+
                   <img src={snowboarding}></img>
                 </li>
                 <li>
