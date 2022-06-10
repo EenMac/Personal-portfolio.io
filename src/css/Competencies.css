@@ -1,5 +1,5 @@
 #competencies-container{
-    height: 200%;
+    height: 200vh;
     zoom: 80%;
     display: flex;
     flex-wrap: wrap;

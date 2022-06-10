@@ -1,5 +1,17 @@
 import React from 'react'
-import "../css/About.css"
+import wakeboard from "../images/wakeboard.jpeg"
+import rugby from "../images/rugby.jpg"
+import cricket from "../images/cricket.jpeg"
+import greenTech from "../images/greentech.jpg"
+import politics from "../images/politics.jpg"
+import economics from "../images/economics.jpg"
+import psychology from "../images/psychology.png"
+import touchrugby from "../images/touch-rl.jpg"
+import snowboarding from "../images/Snowboarding.webp"
+import mountainclimb from "../images/mountainclimbing.jpg"
+import gym from "../images/gym.jpg"
+import hiking from "../images/hiking.jpg"
+import reading from "../images/reading.jpg"
 
 function About() {
   return (
@@ -9,35 +21,64 @@ function About() {
         </div>
         <div id="interests-section">
           <h1>My Likes and interests</h1>
-          <div>
-            <ul id="sports">
-              <h2>Sports</h2>
-              <li>Rugby</li>
-              <li>Cricket</li>
-            </ul>
+          <div id="interests-list">
+            <div >
+              <ul id="sports">
+                <h2>Sports</h2>
+                <li>
+                  <img src={rugby}></img>
+                </li>
+                <li>
+                  <img src={cricket}></img>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul id="topics">
+                <h2>Topics</h2>
+                <li>
+                  <img src={greenTech}></img>
+                </li>
+                <li>
+                  <img src={politics}></img>
+                </li>
+                <li>
+                  <img src={economics}></img>
+                </li>
+                <li>
+                  <img src={psychology}></img>
+                </li>
+              </ul>
+            </div>
+            <div id="Activities">
+              <ul>
+                <h2>Activities</h2>
+                <li>
+                  <img src={touchrugby}></img>
+                </li>
+                <li>
+                  <img src={snowboarding}></img>
+                </li>
+                <li>
+                  <img src={wakeboard}></img>
+                </li>
+                
+                <li>
+                  <img src={mountainclimb}></img>
+                </li>
+                <li>
+                  <img src={gym}></img>
+                </li>
+                <li>
+                  <img src={hiking}></img>
+                </li>
+                <li>
+                  <img src={reading}></img>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <ul id="topics">
-              <h2>Topics</h2>
-              <li>Green tech</li>
-              <li>Politics and governance structures</li>
-              <li>Economics</li>
-              <li>Habits and psychology</li>
-            </ul>
-          </div>
-          <div id="Activities">
-            <ul>
-              <h2>Activities</h2>
-              <li>Touch rugby</li>
-              <li>Snowboarding</li>
-              <li>Wakeboarding</li>
-              <li>Mountain-climbing</li>
-              <li>Gym</li>
-              <li>Hiking</li>
-              <li>Reading</li>
-            </ul>
-          </div>
-        </div>
+        </div>  
     </div>
   )
 }
