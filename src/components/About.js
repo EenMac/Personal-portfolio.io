@@ -1,4 +1,5 @@
 import React from 'react'
+import "../css/About.css"
 import wakeboard from "../images/wakeboard.jpeg"
 import rugby from "../images/rugby.jpg"
 import cricket from "../images/cricket.jpeg"
@@ -22,9 +23,9 @@ function About() {
         <div id="interests-section">
           <h1>My Likes and interests</h1>
           <div id="interests-list">
-            <div >
-              <ul id="sports">
-                <h2>Sports</h2>
+            <div > 
+              <h2>Sports</h2>
+              <ul id="sports"> 
                 <li>
                   <img src={rugby}></img>
                 </li>
@@ -54,7 +55,10 @@ function About() {
               <ul>
                 <h2>Activities</h2>
                 <li>
-                  <img src={touchrugby}></img>
+                  <div id="divdiv">
+                    <img id="touchies" src={touchrugby}></img>
+                  </div>
+                  
                 </li>
                 <li>
                   <img src={snowboarding}></img>
@@ -78,7 +82,7 @@ function About() {
               </ul>
             </div>
           </div>
-        </div>  
+        </div> 
     </div>
   )
 }
