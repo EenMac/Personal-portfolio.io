@@ -28,9 +28,15 @@ function About() {
               <ul id="flex-container"> 
                 <div id="img-container">
                   <img src={rugby}></img>
+                  <div>
+                    <div id="text">Rugby</div>
+                  </div>
                 </div>
                 <div id="img-container">
                   <img src={cricket}></img>
+                  <div>
+                    <div id="text">Cricket</div>
+                  </div>
                 </div>
               </ul>
             </div>
@@ -39,19 +45,28 @@ function About() {
                 <ul id="flex-container">
                   <div id="img-container">
                     <img src={greenTech}></img>
-                    <div id='overlay'>
+                    <div>
                       <div id="text">Green tech</div>
                     </div>
                   </div>
                   
                   <div id="img-container">
                     <img src={politics}></img>
+                    <div>
+                      <div id="text">Politics</div>
+                    </div>
                   </div>
                   <div id="img-container">
                     <img src={economics}></img>
+                    <div>
+                      <div id="text">Economics</div>
+                    </div>
                   </div>
                   <div id="img-container">
                     <img src={psychology}></img>
+                    <div>
+                      <div id="text">Psychology</div>
+                    </div>
                   </div>
                 </ul>
             </div>
@@ -61,24 +76,45 @@ function About() {
               <ul id="flex-container">
                 <div id="img-container">
                   <img id="touch-rugby" src={touchrugby}></img>
+                  <div>
+                    <div id="text">Touch Rugby</div>
+                  </div>
                 </div>
                 <div id="img-container">
                   <img src={snowboarding}></img>
+                  <div>
+                    <div id="text">Snowboarding</div>
+                  </div>
                 </div>
                 <div id="img-container">
                   <img src={wakeboard}></img>
+                  <div>
+                    <div id="text">Wakeboarding</div>
+                  </div>
                 </div>
                 <div id="img-container">
                   <img src={mountainclimb}></img>
+                  <div>
+                    <div id="text">Mountain Climbing</div>
+                  </div>
                 </div>
                 <div id="img-container">
                   <img src={gym}></img>
+                  <div>
+                    <div id="text">Gym</div>
+                  </div>
                 </div>
                 <div id="img-container">
                   <img src={hiking}></img>
+                  <div>
+                    <div id="text">Hiking</div>
+                  </div>
                 </div>
                 <div id="img-container">
                   <img src={reading}></img>
+                  <div>
+                    <div id="text">Reading Books</div>
+                  </div>
                 </div>
               </ul>
             </div>
