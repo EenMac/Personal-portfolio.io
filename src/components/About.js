@@ -23,62 +23,63 @@ function About() {
         <div id="interests-section">
           <h1>My Likes and interests</h1>
           <div id="interests-list">
-            <h2>Sports</h2>
-            <div> 
-              
-              <ul id="sports"> 
-                <li>
+            <div id="sports">
+              <h2>Sports</h2>
+              <ul id="flex-container"> 
+                <div id="img-container">
                   <img src={rugby}></img>
-                </li>
-                <li>
+                </div>
+                <div id="img-container">
                   <img src={cricket}></img>
-                </li>
+                </div>
               </ul>
             </div>
-            
-            <div>
-              <ul id="topics">
-                <h2>Topics</h2>
-                <li>
-                  <img src={greenTech}></img>
-                </li>
-                <li>
-                  <img src={politics}></img>
-                </li>
-                <li>
-                  <img src={economics}></img>
-                </li>
-                <li>
-                  <img src={psychology}></img>
-                </li>
-              </ul>
-            </div>
-            <div id="Activities">
-              <ul>
-                <h2>Activities</h2>
-                  <div id="divdiv">
-                    <img id="touchies" src={touchrugby}></img>
+            <div id="topics">
+              <h2>Topics</h2>
+                <ul id="flex-container">
+                  <div id="img-container">
+                    <img src={greenTech}></img>
+                    <div id='overlay'>
+                      <div id="text">Green tech</div>
+                    </div>
                   </div>
-                <li>
+                  
+                  <div id="img-container">
+                    <img src={politics}></img>
+                  </div>
+                  <div id="img-container">
+                    <img src={economics}></img>
+                  </div>
+                  <div id="img-container">
+                    <img src={psychology}></img>
+                  </div>
+                </ul>
+            </div>
 
+            <div id="activities">
+              <h2>Activities</h2>
+              <ul id="flex-container">
+                <div id="img-container">
+                  <img id="touch-rugby" src={touchrugby}></img>
+                </div>
+                <div id="img-container">
                   <img src={snowboarding}></img>
-                </li>
-                <li>
+                </div>
+                <div id="img-container">
                   <img src={wakeboard}></img>
-                </li>
-                
-                <li>
+                </div>
+                <div id="img-container">
                   <img src={mountainclimb}></img>
-                </li>
-                <li>
+                </div>
+                <div id="img-container">
                   <img src={gym}></img>
-                </li>
-                <li>
+                </div>
+                <div id="img-container">
                   <img src={hiking}></img>
-                </li>
-                <li>
+                </div>
+                <div id="img-container">
                   <img src={reading}></img>
-                </li>
+                </div>
               </ul>
             </div>
           </div>
