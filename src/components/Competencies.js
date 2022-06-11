@@ -22,7 +22,6 @@ function Competencies( props ) {
               <li>Cypress</li>
               <li>Selenium</li>
               <li>Linux</li>
-              <li>Node.js</li>
             </ol>
         </div>
         <div id="seperator"></div>
