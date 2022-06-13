@@ -18,7 +18,7 @@ function About() {
   return (
     <div id="about-container">
         <div id="story-section">
-          <h1>This is where the story will go</h1>
+          <h1>My Journey</h1>
           <div id="text-container">
             <p>
             Originally, I was born and raised in Johannesburg, South Africa, where I attended the university of the Witwatersrand and attained my bachelors in 2017. During my final year I had secured myself an environmental internship and was well on my way to establishing myself as a member the environmental community. It was also during my final year where a friend and I decided it was a great idea to create a website using WordPress, as a personal project. 
