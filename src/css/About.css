@@ -6,7 +6,7 @@
 #story-section{
     list-style-type: none;
     transform: translateY(150px);
-    height: 200px;
+    height: 20%;
     margin-top: 10px;
 }
 #interests-section{
@@ -55,6 +55,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
     opacity: 0;
+    font-family: monospace;
 }
 #flex-container{
     flex-wrap: wrap;
@@ -63,6 +64,13 @@
     justify-content: center;
 }
 
-#overlay{
-    
+#text-container{
+    max-width: 70vw;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+p{
+    text-align: center;
 }
