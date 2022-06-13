@@ -19,6 +19,10 @@ function About() {
     <div id="about-container">
         <div id="story-section">
           <h1>This is where the story will go</h1>
+          <p>
+            In my final year of university, my friend and I decided it was a great idea to create a website using wordpress. Fast forward several hours and red bulls later, we found ourselves frustrated with the inflexability of the template we had bought and its inability to look the way we wanted it to. Little did I know that this frustration would be the spark that lit my endless curiosity for all things digital.
+            Later on that year I made a critical decision to diverge from the career path that I had chosen years before and a job at an established environmental firm I fought tooth and nail to secure, to venture into the unknown on nothing but a gut feeling and a sense of 
+          </p>
         </div>
         <div id="interests-section">
           <h1>My Likes and interests</h1>
@@ -34,41 +38,11 @@ function About() {
                 </div>
                 <div id="img-container">
                   <img src={cricket}></img>
-                  <div>
+                  <div id='overlay'>
                     <div id="text">Cricket</div>
                   </div>
                 </div>
               </ul>
-            </div>
-            <div id="topics">
-              <h2>Topics</h2>
-                <ul id="flex-container">
-                  <div id="img-container">
-                    <img src={greenTech}></img>
-                    <div>
-                      <div id="text">Green tech</div>
-                    </div>
-                  </div>
-                  
-                  <div id="img-container">
-                    <img src={politics}></img>
-                    <div>
-                      <div id="text">Politics</div>
-                    </div>
-                  </div>
-                  <div id="img-container">
-                    <img src={economics}></img>
-                    <div>
-                      <div id="text">Economics</div>
-                    </div>
-                  </div>
-                  <div id="img-container">
-                    <img src={psychology}></img>
-                    <div>
-                      <div id="text">Psychology</div>
-                    </div>
-                  </div>
-                </ul>
             </div>
 
             <div id="activities">
@@ -118,6 +92,39 @@ function About() {
                 </div>
               </ul>
             </div>
+
+            <div id="topics">
+              <h2>Topics</h2>
+                <ul id="flex-container">
+                  <div id="img-container">
+                    <img src={greenTech}></img>
+                    <div>
+                      <div id="text">Green tech</div>
+                    </div>
+                  </div>
+                  
+                  <div id="img-container">
+                    <img src={politics}></img>
+                    <div>
+                      <div id="text">Politics</div>
+                    </div>
+                  </div>
+                  <div id="img-container">
+                    <img src={economics}></img>
+                    <div>
+                      <div id="text">Economics</div>
+                    </div>
+                  </div>
+                  <div id="img-container">
+                    <img src={psychology}></img>
+                    <div>
+                      <div id="text">Psychology</div>
+                    </div>
+                  </div>
+                </ul>
+            </div>
+
+            
           </div>
         </div> 
     </div>
