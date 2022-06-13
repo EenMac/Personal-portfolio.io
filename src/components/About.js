@@ -21,8 +21,19 @@ function About() {
           <h1>This is where the story will go</h1>
           <div id="text-container">
             <p>
-              In my final year of university, my friend and I decided it was a great idea to create a website using wordpress. Fast forward several hours and red bulls later, we found ourselves frustrated with the inflexability of the template we had bought and its inability to look the way we wanted it to. Little did I know that this frustration would be the spark that lit my endless curiosity for all things digital.
-              Later on that year I made a critical decision to diverge from the career path that I had chosen years before and a job at an established environmental firm I fought tooth and nail to secure, to venture into the unknown on nothing but a gut feeling and a sense of 
+            Originally, I was born and raised in Johannesburg, South Africa, where I attended the university of the Witwatersrand and attained my bachelors in 2017. During my final year I had secured myself an environmental internship and was well on my way to establishing myself as a member the environmental community. It was also during my final year where a friend and I decided it was a great idea to create a website using WordPress, as a personal project. 
+            </p>
+            <p>
+              During this long and somewhat tedious process, one thing that became apparent was my frustration over the inherent lack of control I had throughout the creation process. I struggled to get the website elements to go exactly where I wanted them to go. Little did I know was that it was in this period of frustration that my curiosity for software development was sparked.
+            </p>
+            <p>
+              Instead of following the path I had laid for myself over the previous 4 years, I set myself onto a new and unexplored trail, the likes of which I had no idea where I would land. That is when I moved across to the United Kingdom.
+            </p>
+            <p>
+            It was during this time whilst working various jobs, I found myself dabbling in the fundamentals of code whenever I had a moment spare. It was only a time when the pandemic hit, whilst on furlough, I managed to find the time and momentum to really zone in on my abilities as a developer. Under the guidance of some of my nearest friends and colleagues, and with the momentum in my favour I was led to the software development course with CodeClan, which further cemented my understanding and put me on path towards where I am now. I would genuinely consider software development my passion, and I could not be happier of where I turned out.
+            </p>
+            <p>
+            If you are reading this, please feel free to get in touch. 
             </p>
           </div>
           

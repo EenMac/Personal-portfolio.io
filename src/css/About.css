@@ -1,12 +1,13 @@
 #about-container{
     background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-    height: 200vh;
+    height: 220vh;
     zoom: 70%;
 }
 #story-section{
     list-style-type: none;
     transform: translateY(150px);
-    height: 20%;
+    max-height: fit-content;
+    padding-bottom: 50px;
     margin-top: 10px;
 }
 #interests-section{
@@ -73,4 +74,7 @@
 
 p{
     text-align: center;
+    font-family: fantasy;
+    font-size: large;
+    color: black;
 }
