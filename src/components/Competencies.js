@@ -1,9 +1,11 @@
 import * as React from 'react'
 import "../css/Competencies.css"
+import background from "../images/white-gold-geometric-pattern-background-vector_53876-140725.webp"
 
 function Competencies( props ) {
   return (
     <div id="competencies-container">
+      <img src={background}></img>
       <div id='list-container'>
         <div id='languages'>
           <h1>Core languages</h1>
