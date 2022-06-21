@@ -3,6 +3,7 @@ import AppBar from '@mui/material/AppBar'
 import { Box, Icon, IconButton, MenuItem, Toolbar, Typography, Menu, Button} from '@mui/material'
 import { Container } from '@mui/system';
 import "../css/Navbar.css"
+import { useNavigate } from 'react-router-dom'
 
 function Navbar() {
 
@@ -15,6 +16,7 @@ const handleClose = () => {
 setAnchorEl(null);
 };
 
+const navigate = useNavigate()
 
   return (
     <AppBar id="App-bar">
@@ -31,13 +33,13 @@ setAnchorEl(null);
                         open={Boolean(anchorEl)}
                         onClose={handleClose}
                         >
-                            <Button href="/">
+                            <Button onClick={() => navigate("/personal-portfolio")}>
                                 <MenuItem>Home</MenuItem>
                             </Button>
-                            <Button href="/about">
+                            <Button onClick={() => navigate("/personal-portfolio/about")}>
                                 <MenuItem >About</MenuItem>
                             </Button>
-                            <Button href="/competencies">
+                            <Button onClick={() => navigate("/personal-portfolio/competencies")}>
                                 <MenuItem >Competencies</MenuItem>
                             </Button>
                     </Menu>
