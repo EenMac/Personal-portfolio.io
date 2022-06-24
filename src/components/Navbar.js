@@ -15,6 +15,10 @@ setAnchorEl(event.currentTarget);
 const handleClose = () => {
 setAnchorEl(null);
 };
+function closeMenuOnClick(url){
+    navigate(url);
+    handleClose()
+}
 
 const navigate = useNavigate()
 
@@ -33,13 +37,13 @@ const navigate = useNavigate()
                         open={Boolean(anchorEl)}
                         onClose={handleClose}
                         >
-                            <Button onClick={() => navigate("/personal-portfolio")}>
+                            <Button onClick={() => navigate("/")} >
                                 <MenuItem>Home</MenuItem>
                             </Button>
-                            <Button onClick={() => navigate("/personal-portfolio/about")}>
+                            <Button onClick={() => navigate("/about")}>
                                 <MenuItem >About</MenuItem>
                             </Button>
-                            <Button onClick={() => navigate("/personal-portfolio/competencies")}>
+                            <Button onClick={() => navigate("/competencies")}>
                                 <MenuItem >Competencies</MenuItem>
                             </Button>
                     </Menu>
