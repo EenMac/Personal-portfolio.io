@@ -1,6 +1,7 @@
 #home-container{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     height: 100%;
 }
 #text-element{
@@ -36,7 +37,7 @@
 }
 #main-image{
     position: flex;
-    zoom: 30%;
+    zoom: 50%;
     flex: 1;
 }
 

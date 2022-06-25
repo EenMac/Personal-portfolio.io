@@ -1,11 +1,9 @@
 import React from 'react'
 import "../css/Home.css"
-import sunset from "../African-Sunset.jpeg";
+import img from "../images/Profilepic.png";
 
 function Home() {
 
-    var image = document.getElementById("main-image")
-    console.log(image);
     return (
         <>
         <div id="home-container"> 
@@ -17,7 +15,7 @@ function Home() {
                 <h2 id='sub-heading'>Please feel free to have a wander about.</h2>
             </div>
             <div id="picture-container">
-                <img id="main-image" src={sunset}>
+                <img id="main-image" src={img}>
                 </img>
             </div>
         </div>
