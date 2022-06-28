@@ -1,7 +1,7 @@
+
 #about-container{
-    background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-    height: fit-content;
-    height: 250vh;
+    background: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    min-width: fit-content;
 }
 #story-section{
     list-style-type: none;
@@ -11,10 +11,9 @@
     margin-top: 10px;
 }
 #interests-section{
-    transform: translateY(100px);
     margin-top: 10px;
-    height: 400px;
     list-style-type: none;
+    padding: 100px;
 }
 #interests-list{
     display: inline-flex;
