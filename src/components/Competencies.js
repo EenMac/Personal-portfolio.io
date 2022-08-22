@@ -28,7 +28,7 @@ function Competencies( props ) {
         <div id="projects-section">
           <h1>Projects</h1>
             <ol>
-              <li>Notflix</li>
+              <a href="https://eenmac.github.io/Notflix/">Notflix</a>
               <li>Productivity Timer</li>
               <li>Personal website</li>
               <li>Radroutes</li>
